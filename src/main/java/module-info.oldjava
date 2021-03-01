@@ -1,0 +1,12 @@
+/**
+ * @author fatih
+ */module commons.module {
+     requires java.logging;
+     requires commons.io;
+     requires commons.dbutils;
+     requires com.h2database;
+     requires java.sql;
+     requires java.naming;
+     requires spark.core;
+     exports io.hubbox;
+}
